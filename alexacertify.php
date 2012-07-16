@@ -3,7 +3,7 @@
 Plugin Name: Alexa Claim and Certify
 Plugin URI: http://www.alexa.com/
 Description: The official Alexa plugin for WordPress.
-Version: 0.5 
+Version: 1.0 
 Author: Alexa Internet
 Author URI: http://www.alexa.com/
 */

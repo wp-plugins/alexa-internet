@@ -17,16 +17,18 @@ If you have an Alexa Pro subscription for your Wordpress site, this plugin makes
 == Installation ==
 
 To claim your site:
+
 1. Upload the Official Alexa Wordpress Plugin to your site.
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Visit http://www.alexa.com/siteowners/claim and follow the instructions
-1. Enter your Alexa verification ID into the plugin and Update
-1. Click "Verify my ID" on Alexa.com
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Visit http://www.alexa.com/siteowners/claim and follow the instructions
+4. Enter your Alexa verification ID into the plugin and Update
+5. Click "Verify my ID" on Alexa.com
 
 To certify your site:
+
 1. Upload the Official Alexa Wordpress Plugin to your site.
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Visit http://www.alexa.com/pro/dashboard and follow the instructions
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Visit http://www.alexa.com/pro/dashboard and follow the instructions
 
 
 == Changelog ==

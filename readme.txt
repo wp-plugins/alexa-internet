@@ -12,7 +12,7 @@ This plugin allows you to easily claim and ceritfy your Wordpress blog on Alexa.
 
 The Official Alexa Wordpress Plugin makes it easy to claim your Wordpress site on Alexa.com. Once you have claimed your site, you can edit your Alexa.com site listing.
 
-If you have an Alexa Pro subscription for your Wordpress site, this plugin makes it easy to add the Certify Code. To learn more about Certification and Alexa Pro, visit http://www.alexa.com/prodcuts
+If you have an Alexa Pro subscription for your Wordpress site, this plugin makes it easy to add the Certify Code. To learn more about Certification and Alexa Pro, visit http://www.alexa.com/products
 
 == Installation ==
 

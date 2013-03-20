@@ -6,7 +6,7 @@ Tested up to: 3.4.1
 Stable tag: trunk
 License: GPLv2 or later
 
-This plugin allows you to easily claim and ceritfy your Wordpress blog on Alexa.com.
+This plugin allows you to easily claim and certify your Wordpress blog on Alexa.com.
 
 == Description ==
 

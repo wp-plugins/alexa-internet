@@ -3,7 +3,7 @@
 Plugin Name: Alexa Claim and Certify
 Plugin URI: http://www.alexa.com/
 Description: The official Alexa plugin for WordPress.
-Version: 2.0
+Version: 2.5
 Author: Alexa Internet
 Author URI: http://www.alexa.com/
 */
@@ -33,8 +33,8 @@ if(!class_exists('WP_Alexa_Certify')) {
             add_action('wp_head', array(&$this, 'add_alexa_claim_metatag'));
             add_action('login_head', array(&$this, 'add_alexa_claim_metatag'));
             //Add the alexa certify snippet to the footer of the WP site            
-            add_action('login_footer', array(&$this, 'alexa_certify_snippet'));
-            add_action('wp_footer', array(&$this, 'alexa_certify_snippet'));
+            add_action('login_head', array(&$this, 'alexa_certify_snippet'));
+            add_action('wp_head', array(&$this, 'alexa_certify_snippet'));
         }
 
         public function add_alexa_claim_metatag() {
@@ -42,6 +42,7 @@ if(!class_exists('WP_Alexa_Certify')) {
             if(is_home() || is_front_page()) {
                 if(!defined('AX_PLUGIN_VERIFY_TAG')) {
                     $verifyId = get_option("alexacertify_verify");
+                    echo "<!-- Alexa WordPress Claim and Certify plugin. -->\n";
                     if ($verifyId) {
                         echo "<meta name=\"alexaVerifyID\" content=\"$verifyId\" />\n";
                     }
